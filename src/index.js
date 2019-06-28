@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import './util/normalize.scss';
 import * as serviceWorker from './serviceWorker';
+import { EntryRoute } from './routes';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<EntryRoute />, document.getElementById('root'));
 serviceWorker.unregister();
