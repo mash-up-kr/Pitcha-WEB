@@ -1,0 +1,60 @@
+@import '../../../util/util';
+
+.wrap {
+  width: 100%;
+  display: flex;
+  border: solid 1px black;
+  background: $white-900;
+  padding: 12px;
+}
+
+.wrap + .wrap {
+  margin-top: 8px;
+}
+
+.imgWrap {
+  min-width: 140px;
+  height: 88px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profileImg {
+  width: 140px;
+  height: auto;
+}
+
+.contentsWrap {
+  padding-left: 10px;
+  width: 100%;
+}
+
+.title {
+  font-size: 0.9rem;
+  font-weight: bold;
+  margin-top: 2px;
+  margin-bottom: 8px;
+}
+
+.location {
+  font-size: 0.7rem;
+}
+
+.serviceWrap {
+  display: flex;
+}
+
+.serviceItem {
+  font-size: 0.7rem;
+  padding: 2px 4px;
+  background: $black-100;
+  border-radius: 2px;
+  margin-top: 4px;
+  color: $black-700;
+}
+
+.serviceItem + .serviceItem {
+  margin-left: 4px;
+}
