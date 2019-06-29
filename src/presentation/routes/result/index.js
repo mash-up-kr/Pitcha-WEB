@@ -13,6 +13,7 @@ const Result = () => {
     <div className={styles.wrap}>
       <Logo />
       <SearchHeader />
+      <div className={styles.mapButton}>🗺 지도로 보기</div>
       <section className={styles.resultWrap}>
         {
           gyms.map(item => (
