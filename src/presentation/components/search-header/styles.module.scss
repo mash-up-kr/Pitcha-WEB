@@ -3,6 +3,7 @@
 .wrap {
   width: 100%;
   display: flex;
+  flex-direction: column;
   padding: 24px 20px;
 }
 
@@ -19,7 +20,6 @@
     color: $black-600;
     line-height: normal;
     font-size: 1rem;
-
   }
 }
 
@@ -27,4 +27,14 @@
   width: 24px;
   height: 24px;
   background: url('../../resources/svg/ic_search.svg') no-repeat;
+}
+
+.info {
+  font-size: 1rem;
+  color: $black-600;
+  margin-top: 16px;
+
+  span {
+    color: $purple-900;
+  }
 }

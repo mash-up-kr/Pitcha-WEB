@@ -4,13 +4,16 @@ import { hot } from 'react-hot-loader/index';
 import { Splash } from './splash';
 import Result from './result';
 import { Main } from './main';
+import Detail from './detail';
 
 const EntryRoute = () => (
   <BrowserRouter>
     <Switch>
       <Route path="/main" component={Main} />
+      <Route path="/detail/:id" component={Detail} />
+      <Route path="/splash" component={Splash} />
       <Route path="/result" component={Result} />
-      <Route path="/" component={Splash} />
+      <Route path="/" component={Result} />
     </Switch>
   </BrowserRouter>
 );
