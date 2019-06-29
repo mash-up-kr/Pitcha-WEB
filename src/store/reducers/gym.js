@@ -9,7 +9,7 @@ const initialState = {
   fetchState: STATE_LOADING,
   gyms: List([
     {
-      gym_id: 1,
+      gym_id: 0,
       name: '뱅크샐러드',
       location: '서울특별시 영등포구 국제금융로8길 16 신영증권빌딩 9층',
       telephone: '02-3453-9300',
@@ -27,7 +27,7 @@ const initialState = {
       description: List(['신경꺼도 내돈관리!']),
       images: List(['https://cdn.banksalad.com/og/default.png']),
     }, {
-      gym_id: 2,
+      gym_id: 1,
       name: '토스',
       location: '서울특별시 강남구 테헤란로 142 아크플레이스 12층',
       telephone: '02-544-7055',
@@ -45,7 +45,7 @@ const initialState = {
       description: List(['돈을 토쓰윽!']),
       images: List(['http://i.011st.com/ui_img/cm_display/2018/11/SM/2296-12/m_101.png']),
     }, {
-      gym_id: 3,
+      gym_id: 2,
       name: '카카오페이',
       location: '경기 성남시 분당구 판교역로 152 알파돔타워 12층',
       telephone: '1644-7405',
