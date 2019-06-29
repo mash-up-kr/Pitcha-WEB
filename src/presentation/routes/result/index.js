@@ -3,6 +3,7 @@ import { useSelector } from 'react-redux';
 import styles from './styles.module.scss';
 import ResultItem from '../../components/result-item';
 import Logo from '../../components/logo';
+import SearchHeader from '../../components/search-header';
 
 const Result = () => {
   const gyms = useSelector(state => state.gym.gyms);
@@ -10,7 +11,8 @@ const Result = () => {
 
   return (
     <div className={styles.wrap}>
-      <Logo/>
+      <Logo />
+      <SearchHeader />
       <section className={styles.resultWrap}>
         {
           gyms.map(item => (
