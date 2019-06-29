@@ -1,7 +1,6 @@
 import { SIGN_IN_FAILURE, SIGN_IN_REQUEST, SIGN_IN_SUCCESS } from '../actions/auth';
 
-const initialState = {
-};
+const initialState = { };
 
 const reducer = (state = initialState, action) => {
   switch (action.auth) {
