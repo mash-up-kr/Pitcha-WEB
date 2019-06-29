@@ -8,9 +8,9 @@ import { Main } from './main';
 const EntryRoute = () => (
   <BrowserRouter>
     <Switch>
-      <Route path="/splash" component={Splash} />
+      <Route path="/main" component={Main} />
       <Route path="/result" component={Result} />
-      <Route path="/" component={Main} />
+      <Route path="/" component={Splash} />
     </Switch>
   </BrowserRouter>
 );

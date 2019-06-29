@@ -3,15 +3,43 @@
 .wrap {
   width: 100%;
   height: 100vh;
-  background: $black-900;
+  background: $white-900;
   display: flex;
   justify-content: center;
   align-items: center;
+}
 
+.text {
+  font-family: GothicA1;
+  font-size: 1rem;
+  font-style: normal;
+  color: $black-500;
+  line-height: 1.43;
+  text-align: center;
+  font-weight: normal;
+  position: fixed;
+  top: 40%;
+}
+
+.text2 {
+  font-weight: bold;
 }
 
 .logo {
-  font-size: 2rem;
-  color: $white-900;
-  font-weight: bold;
+  width: 125px;
+  height: 40px;
+  object-fit: contain;
+  position: fixed;
+  top: 30%;
+  background: url("../../resources/png/group.png") no-repeat;
+}
+
+.splash {
+  width: 375px;
+  height: 310px;
+  position: fixed;
+  left: 3px;
+  bottom: 0;
+  object-fit: contain;
+  background: url("../../resources/svg/splash.svg") no-repeat;
 }
