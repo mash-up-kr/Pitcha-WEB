@@ -13,7 +13,7 @@ const EntryRoute = () => (
       <Route path="/detail/:id" component={Detail} />
       <Route path="/splash" component={Splash} />
       <Route path="/result" component={Result} />
-      <Route path="/" component={Result} />
+      <Route path="/" component={Splash} />
     </Switch>
   </BrowserRouter>
 );
