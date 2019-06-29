@@ -1,11 +1,14 @@
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import React from 'react';
+import { hot } from 'react-hot-loader';
 import { Splash } from './splash';
 
-export const EntryRoute = () => (
+const EntryRoute = () => (
   <BrowserRouter>
     <Switch>
       <Route path="/" component={Splash} />
     </Switch>
   </BrowserRouter>
 );
+
+export default hot(module)(EntryRoute);

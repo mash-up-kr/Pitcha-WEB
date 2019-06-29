@@ -21,7 +21,7 @@ module.exports = {
   rules: {
     'no-underscore-dangle': [
       'error',
-      { allow: ['__REDUX_DEVTOOLS_EXTENSION_COMPOSE__'] },
+      { allow: ['__REDUX_DEVTOOLS_EXTENSION_COMPOSE__, __REDUX_DEVTOOLS_EXTENSION__'] },
     ],
     'no-useless-escape': ['off', 'always'],
     'import/no-extraneous-dependencies': ['error', { 'devDependencies': ['**/*.stories.js', '**/*.test.js'] }],
