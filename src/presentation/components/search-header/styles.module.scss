@@ -3,18 +3,28 @@
 .wrap {
   width: 100%;
   display: flex;
-  padding: 24px 28px;
+  padding: 24px 20px;
 }
 
 .inputWrap {
   width: 100%;
-  height: 56px;
-  border: solid 1px $black-300;
+  padding: 20px;
+  background: $signature-orange-50;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-radius: 2px;
 
   p {
-    color: $black-700;
+    color: $black-600;
+    line-height: normal;
+    font-size: 1rem;
+
   }
+}
+
+.searchIcon {
+  width: 24px;
+  height: 24px;
+  background: url('../../resources/svg/ic_search.svg') no-repeat;
 }
