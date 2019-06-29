@@ -7,7 +7,9 @@ export function* signIn() {
     try {
       const action = yield take(authActions.SIGN_IN_REQUEST);
 
-      const response = yield call(Service.kakaoAuthApi.login(), action.payload);
+      const response = yield call(Service.kakaoAuthApi.login(), {
+        option1: action.payload.option1,
+      });
 
       yield put(authActions.signInSuccess(response.data));
     } catch (error) {
