@@ -6,6 +6,7 @@ import { Splash } from './splash';
 const EntryRoute = () => (
   <BrowserRouter>
     <Switch>
+      <Route path="/splash" component={Splash} />
       <Route path="/" component={Splash} />
     </Switch>
   </BrowserRouter>
