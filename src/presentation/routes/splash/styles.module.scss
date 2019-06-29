@@ -35,10 +35,10 @@
 }
 
 .splash {
-  width: 375px;
+  min-width: 100%;
   height: 310px;
   position: fixed;
-  left: 3px;
+  left: 0;
   bottom: 0;
   object-fit: contain;
   background: url("../../resources/svg/splash.svg") no-repeat;

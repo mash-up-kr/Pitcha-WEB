@@ -4,7 +4,7 @@ import styles from './styles.module.scss';
 export const Splash = ({ history }) => {
   setTimeout(() => {
     history.push('/main');
-  }, 3000);
+  }, 2500);
 
   return (
     <div className={styles.wrap}>
