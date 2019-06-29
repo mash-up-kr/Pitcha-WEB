@@ -15,3 +15,16 @@
   height: 100%;
   padding: 0 20px;
 }
+
+.mapButton {
+  width: calc(100% - 40px);
+  padding: 8px 0;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px $black-200;
+  background: $white-900;
+  border-radius: 2px;
+  line-height: normal;
+}

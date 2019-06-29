@@ -4,7 +4,6 @@ import styles from './styles.module.scss';
 
 const ResultItem = ({ item }) => (
   <div className={styles.wrap}>
-    {console.log('t', item)}
     <div className={styles.imgWrap}>
       <img
         className={styles.profileImg}
