@@ -1,0 +1,30 @@
+@import '../../../util/util';
+
+.wrap {
+  width: 100%;
+  display: flex;
+  padding: 24px 20px;
+}
+
+.inputWrap {
+  width: 100%;
+  padding: 20px;
+  background: $signature-orange-50;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 2px;
+
+  p {
+    color: $black-600;
+    line-height: normal;
+    font-size: 1rem;
+
+  }
+}
+
+.searchIcon {
+  width: 24px;
+  height: 24px;
+  background: url('../../resources/svg/ic_search.svg') no-repeat;
+}
